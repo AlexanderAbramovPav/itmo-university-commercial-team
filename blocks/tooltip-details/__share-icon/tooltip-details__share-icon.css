@@ -1,0 +1,8 @@
+.tooltip-details__share-icon {
+  all: unset;
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/icons/share.svg) no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}

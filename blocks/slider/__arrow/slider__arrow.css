@@ -1,0 +1,24 @@
+.slider__arrow {
+  all: unset;
+  position: absolute;
+  top: calc(50% - 45px);
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 20px rgba(1, 54, 157, 0.15);
+  border-radius: 36px;
+  transition: background-color .2s ease-out;
+}
+
+.slider__arrow:hover {
+  background-color: #009FAC;
+}
+
+.slider__arrow:active {
+  background-color: #009FAC;
+}
+
+@media screen and (max-width: 854px) {
+  .slider__arrow {
+    display: none;
+  }
+}

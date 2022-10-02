@@ -1,0 +1,23 @@
+.about {
+  padding-top: calc(2.97vw + 37.14px);
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-image: url('../../images/Background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #001337;
+  overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+  .about {
+    padding-top: calc(3.57vw + 32.57px);
+    background-image: url('../../images/Background-image-mirror-reflected.png');
+  }
+}
+
+@media all and (max-width:320px) {
+  .about {
+    padding-top: 44px;
+  }
+}

@@ -1,0 +1,11 @@
+.ai-research-lab__card-circle_icon_pen {
+  background: center no-repeat url(../../../../images/lab/pen.svg);
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-circle_icon_pen {
+    background: center no-repeat url(../../../../images/lab/penTablet.svg);
+    background-color: #FFF;
+  }
+}

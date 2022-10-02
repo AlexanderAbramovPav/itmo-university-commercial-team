@@ -1,0 +1,15 @@
+.publications__item-text {
+  min-height: 285px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  transition: transform .5s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 707px) {
+  .publications__item-text {
+    padding: 12px 0 0;
+  }
+}

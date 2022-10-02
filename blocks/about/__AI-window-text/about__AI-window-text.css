@@ -1,0 +1,26 @@
+.about__AI-window-text {
+  margin:0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width:768px) {
+  .about__AI-window-text {
+    font-size: calc(0.89vw + 11.14px);
+    line-height: calc(2.45vw + 11.14px);
+  }
+}
+
+@media all and (max-width:320px) {
+  .about__AI-window-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,7 @@
+.education__arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  background: center url(../../../images/study/arrow-down.svg);
+  display: inline-block;
+}

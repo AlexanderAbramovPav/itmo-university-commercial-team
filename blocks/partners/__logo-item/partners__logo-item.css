@@ -1,0 +1,15 @@
+.partners__logo-item {
+  margin: 0 10px 50px 10px;
+}
+
+@media screen and (max-width: 1399px) {
+  .partners__logo-item {
+    margin: 0 20px 30px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__logo-item {
+    margin: 0 15px 20px 15px;
+  }
+}

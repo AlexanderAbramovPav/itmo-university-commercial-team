@@ -1,0 +1,22 @@
+.team__dots {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 768px) {
+  .team__dots {
+    margin-top: 24px;
+    margin-bottom: 81px;
+    display: none;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .team__dots {
+    margin-top: 14px;
+    margin-bottom: 54px;
+  }
+}

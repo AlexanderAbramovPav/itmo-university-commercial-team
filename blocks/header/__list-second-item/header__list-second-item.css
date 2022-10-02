@@ -1,0 +1,17 @@
+.header__list-second-item {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 8px;
+  min-height: 28px;
+  background-color:  #000D26;
+  transition: background-color 1s linear;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__list-second-item{
+    padding: 0;
+    width: 100%;
+    margin-bottom: 15px;    
+  }
+}
+  

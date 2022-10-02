@@ -1,0 +1,11 @@
+.ai-research-lab__molecular {
+  position: absolute;
+  top: 0;
+  left: -36px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__molecular {
+    display: none;
+  }
+}

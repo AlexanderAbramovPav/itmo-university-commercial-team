@@ -1,0 +1,18 @@
+.about__AI-window-content {
+  max-width: 445px;
+  margin-top: 92px;
+}
+
+@media all and (max-width:768px) {
+  .about__AI-window-content {
+    max-width:calc(35vw + 175.87px);
+  }
+}
+
+@media all and (max-width:400px) {
+  .about__AI-window-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 288px;
+  }
+}

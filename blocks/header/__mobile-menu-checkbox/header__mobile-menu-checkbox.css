@@ -1,0 +1,31 @@
+.header__mobile-menu-checkbox {
+  display: none;
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-nav {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-container {
+  height: 100%;
+  transition-delay: 0s;
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-btn .header__mobile-menu-icon {
+  background: transparent;
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-btn .header__mobile-menu-icon::before, .header__mobile-menu-checkbox:checked ~ .header__mobile-menu-btn .header__mobile-menu-icon::after {
+  top: 0;
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-btn .header__mobile-menu-icon::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.header__mobile-menu-checkbox:checked ~ .header__mobile-menu-btn .header__mobile-menu-icon::before {
+   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

@@ -1,0 +1,23 @@
+.team__dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: #FFFFFF;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.team__dot:hover {
+  cursor: pointer;
+}
+
+@media all and (max-width:320px) {
+  .team__dot {
+    width: 4px;
+    height: 4px;
+  }
+}

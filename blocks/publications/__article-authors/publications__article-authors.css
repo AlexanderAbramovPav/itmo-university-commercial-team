@@ -1,0 +1,18 @@
+.publications__article-authors {
+  margin: 4px 0px;
+  max-height: 38px;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #009FAC;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 707px) {
+  .publications__article-authors {
+    font-size: 12px;
+    line-height: 145%;
+  }
+}

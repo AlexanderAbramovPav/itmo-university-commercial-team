@@ -1,0 +1,19 @@
+.header__list-second {
+  list-style: none;
+  display: none;
+  max-width: 120px;
+  width: 100%; 
+}
+
+@media screen and (min-width: 1023px) {
+  .header__list-second {
+    padding: 0;
+    top: 100%;
+    left: 0;
+    padding-top: 20px;
+    position: absolute;
+  }
+  .header__list-second  > .header__list-second-item:hover{      
+    background: #009FAC;
+  }
+}

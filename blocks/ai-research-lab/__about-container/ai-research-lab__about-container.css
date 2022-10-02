@@ -1,0 +1,19 @@
+.ai-research-lab__about-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__about-container {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__about-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}

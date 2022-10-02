@@ -1,0 +1,27 @@
+.education__flex-container {
+  padding: 30px;
+  width: 1170px;
+  margin: 0 auto 35px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__flex-container {
+    width: 690px;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__flex-container {
+    width: 288px;
+    margin-bottom: 16px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+  }
+}

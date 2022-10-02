@@ -1,0 +1,32 @@
+.feedback__text {
+  margin: 0;
+  padding-top: 37px;
+  padding-bottom: 60px;
+  padding-left: calc(18vh);
+  padding-right: calc(18vh);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 870px) {
+  .feedback__text {
+    padding-bottom: 37px;
+    padding-left: 39px;
+    padding-right: 39px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feedback__text {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

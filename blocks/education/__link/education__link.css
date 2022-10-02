@@ -1,0 +1,38 @@
+.education__link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all .1s linear;
+}
+
+.education__link:hover {
+  font-weight: 700;
+}
+
+.education__link::before {
+  content: '';
+  border-bottom: 1px solid #000D26;
+  position: absolute;
+  left: -3px;
+  bottom: 0;
+  transition: all .1s linear;
+  width: 0;
+}
+
+.education__link:hover::before {
+  width: 110px;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__link:hover::before {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__link:hover::before {
+    width: 75px;
+  }
+}

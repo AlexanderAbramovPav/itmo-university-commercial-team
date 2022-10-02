@@ -1,0 +1,39 @@
+.header__list-item {
+  width: 100px;
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  transition: background-color .5s linear;
+  border-bottom: solid 2px transparent;
+  transition: border .6s linear;
+}
+
+@media screen and (min-width: 1023px) {
+  .header__list-item:hover {
+    border-bottom: solid 2px #009FAC;
+  }
+}
+
+.header__list-item:hover .header__list-second {
+  display: block;
+}
+
+/*До десктопа*/
+
+@media (max-width: 1020px) {
+  .header__list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 44px;
+    padding-left: 10px;
+  }
+  .header__list-item:hover {
+    background-color: #001337;
+    opacity: 1;
+  }
+}

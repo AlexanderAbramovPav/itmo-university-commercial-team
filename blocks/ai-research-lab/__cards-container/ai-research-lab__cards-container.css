@@ -1,0 +1,23 @@
+.ai-research-lab__cards-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__cards-container {
+    max-width: 720px;
+    justify-content:center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__cards-container {
+    max-width: 288px;
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+  }
+}

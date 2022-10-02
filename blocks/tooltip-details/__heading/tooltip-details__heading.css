@@ -1,0 +1,17 @@
+.tooltip-details__heading {
+  margin: 0;
+  display: inline-block;
+  font-family: 'OpenSans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 707px) {
+  .tooltip-details__heading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

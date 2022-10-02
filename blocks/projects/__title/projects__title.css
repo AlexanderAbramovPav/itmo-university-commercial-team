@@ -1,0 +1,10 @@
+.projects__title {
+  margin: -100px 0 42px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__title {
+    margin-bottom: 20px;
+  }
+}

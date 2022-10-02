@@ -1,0 +1,11 @@
+.footer__development {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 320px) {
+  .footer__development {
+    width: 140px;
+  }
+}

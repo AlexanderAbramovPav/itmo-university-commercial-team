@@ -1,0 +1,4 @@
+.feedback__message {
+  grid-area: message;
+  padding-top: 20px;
+}

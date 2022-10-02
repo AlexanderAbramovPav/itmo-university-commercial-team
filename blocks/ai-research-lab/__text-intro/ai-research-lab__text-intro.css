@@ -1,0 +1,24 @@
+.ai-research-lab__text-intro {
+  margin: 0 0 20px 0;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  color: #000D26;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__text-intro {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__text-intro {
+    font-size: 12px;
+    line-height: 1.36;
+    margin-top: 20px;
+  }
+}

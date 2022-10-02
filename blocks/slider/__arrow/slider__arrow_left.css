@@ -1,0 +1,12 @@
+.slider__arrow_left {
+  left: 0;
+  background: url(../../../images/icons/arrow-left.svg) no-repeat center center #fff;
+}
+
+.slider__arrow_left:hover {
+  background-image: url(../../../images/icons/arrow-left_white.svg);
+}
+
+.slider__arrow_left:active {
+  background-image: url(../../../images/icons/arrow-left_white.svg);
+}

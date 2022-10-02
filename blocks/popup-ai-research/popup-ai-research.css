@@ -1,0 +1,13 @@
+.popup-ai-research {
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .5s linear, opacity .5s linear;
+  background-color: rgba(0, 13, 38, 0.6);
+  z-index: 999;
+}

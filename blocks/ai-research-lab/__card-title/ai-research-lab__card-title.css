@@ -1,0 +1,24 @@
+.ai-research-lab__card-title {
+  margin: 0 0 50px;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #001337;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-title {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__card-title {
+    margin-bottom: 16px;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+}

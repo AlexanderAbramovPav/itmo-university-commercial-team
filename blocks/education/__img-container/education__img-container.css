@@ -1,0 +1,20 @@
+.education__img-container {
+  max-width: 445px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__img-container {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__img-container {
+    max-width: 256px;
+    order: -1;
+    max-height: 160px;
+    margin-bottom: 12px;
+  }
+}

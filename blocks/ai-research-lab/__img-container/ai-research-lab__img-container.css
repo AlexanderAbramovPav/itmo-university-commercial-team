@@ -1,0 +1,59 @@
+.ai-research-lab__img-container {
+  display: flex;
+}
+
+.ai-research-lab__img-container::before {
+  width: 264px;
+  height: 276px;
+  margin-right: 12px;
+  content: "";
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(../../../images/lab/image1.png);
+  background-size: cover;
+}
+
+.ai-research-lab__img-container::after {
+  content: "";
+  width: 264px;
+  height: 276px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(../../../images/lab/image2.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__img-container::before {
+    content: "";
+    width: 0;
+    height: 0;
+  }
+
+  .ai-research-lab__img-container::after {
+    content: "";
+    width: 330px;
+    height: 240px;
+    background-image: url(../../../images/lab/image2table.png);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__img-container::before {
+    content: "";
+    order: 1;
+    max-width: 288px;
+    max-height: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-size: cover;
+  }
+
+  .ai-research-lab__img-container::after {
+    content: "";
+    width: 288px;
+    height: 180px;
+    background-image: url(../../../images/lab/image2mobile.png);
+  }
+}

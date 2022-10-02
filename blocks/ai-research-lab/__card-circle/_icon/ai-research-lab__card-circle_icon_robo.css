@@ -1,0 +1,11 @@
+.ai-research-lab__card-circle_icon_robo {
+  background: center no-repeat url(../../../../images/lab/robo.svg);
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-circle_icon_robo {
+    background: center no-repeat url(../../../../images/lab/roboTablet.svg);
+    background-color: #FFF;
+  }
+}

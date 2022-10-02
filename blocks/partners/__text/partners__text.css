@@ -1,0 +1,36 @@
+.partners__text {
+  max-width: 920px;
+  margin: 0 auto 30px;
+  color: #FFF;
+  font-family: 'OpenSans', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+}
+
+.partners__text:last-of-type {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__text {
+    max-width: 690px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+  .partners__text:last-of-type {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__text {
+    max-width: 288px;
+    font-size: 12px;
+    line-height: 1.33;
+  }
+  .partners__text:last-of-type {
+    margin-bottom: 50px;
+  }
+}

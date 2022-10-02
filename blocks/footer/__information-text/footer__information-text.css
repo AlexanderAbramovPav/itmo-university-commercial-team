@@ -1,0 +1,26 @@
+.footer__information-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 37.5px;
+  max-width: 204px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+@media all and (max-width: 768px) {
+  .footer__information-text {
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer__information-text {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+.publications__image-container {
+  padding: 20px 19px 0;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 707px) {
+  .publications__image-container {
+    padding: 0;
+  }
+}

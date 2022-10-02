@@ -1,0 +1,49 @@
+.projects__item {
+  margin-right: 29px;
+  max-width: 254px;
+  min-height: 307px;
+  mix-blend-mode: multiply;
+  background-image: url('../../../images/projects/project_gazprom.png');
+  background-color: #009FAC;
+  background-position: bottom;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: white;
+  transition: all .15s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+  .projects__item {
+    max-width: 210px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects__item {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__item {
+    background-image: none;
+    max-width: 140px;
+    min-height: 220px;
+  }
+}
+
+.projects__item:hover {
+  background-color: white;
+  color: #001337;
+}
+
+.projects__item:hover .projects__item-logo {
+  fill: #001337;
+}
+
+.projects__item:last-child {
+  margin-right: 0px;
+}

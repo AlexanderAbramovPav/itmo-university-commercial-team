@@ -1,0 +1,17 @@
+.education__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__wrapper {
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__wrapper {
+    width: 288px;
+  }
+}

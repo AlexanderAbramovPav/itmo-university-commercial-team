@@ -1,0 +1,17 @@
+.ai-research-lab {
+  background-color: #E0F0FF;
+  box-sizing: border-box;
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab {
+    padding: 40px 0;
+  }
+}

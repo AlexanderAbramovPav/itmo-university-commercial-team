@@ -1,0 +1,26 @@
+.slider__dots {
+  margin: 0 12px 0 0;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #001337;
+  opacity: 50%;
+  transition: opacity 0.6s ease;
+  padding: 0;
+}
+
+.slider__dots:last-of-type {
+  margin-right: 0;
+}
+
+.slider__dots:hover {
+  opacity: 100%;
+}
+
+@media screen and (max-width: 707px) {
+  .slider__dots {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,22 @@
+.publications__article-heading {
+  margin: 4px 0;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000d26;
+}
+
+@media screen and (max-width: 1260px) {
+  .publications__article-heading {
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 707px) {
+  .publications__article-heading {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

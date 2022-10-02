@@ -1,0 +1,25 @@
+.footer__done-by-formobile {
+  margin: 0;
+  padding: 0;
+  display: none;
+  opacity: 0.5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+@media all and (max-width: 764px) {
+  .footer__done-by-formobile {
+    display: block;
+    align-self: flex-end;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer__done-by-formobile {
+    align-self: center;
+  }
+}

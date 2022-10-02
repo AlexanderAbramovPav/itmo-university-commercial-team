@@ -1,0 +1,11 @@
+.ai-research-lab__card-circle_icon_brain {
+  background: center no-repeat url(../../../../images/lab/brain.svg);
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-circle_icon_brain {
+    background: center no-repeat url(../../../../images/lab/brainTablet.svg);
+    background-color: #FFF;
+  }
+}

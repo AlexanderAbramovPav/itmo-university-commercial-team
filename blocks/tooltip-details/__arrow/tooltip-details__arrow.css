@@ -1,0 +1,10 @@
+.tooltip-details__arrow {
+  all: unset;
+  align-self: center;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 12px;
+  background: url(../../../images/icons/arrow-right_white.svg) no-repeat center center;
+  background-size: cover;
+  transition: transform 150ms ease-in-out;
+}

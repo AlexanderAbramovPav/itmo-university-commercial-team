@@ -1,0 +1,6 @@
+.header__mobile-menu-link {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity .5s linear;
+  opacity: .5;
+}

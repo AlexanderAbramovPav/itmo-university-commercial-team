@@ -1,0 +1,25 @@
+.projects__menu {
+  min-height: 48px;
+  padding-bottom: 60.5px;
+  padding-left: 0;
+  margin: 0;
+  max-width: calc(100% - 165px);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__menu {
+    max-height: 44px;
+    max-width: calc(100% - 39px);
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects__menu {
+    padding-bottom: 20px;
+    max-width: calc(100% - 16px);
+  }
+}

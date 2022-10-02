@@ -1,0 +1,10 @@
+.partners__title {
+  margin: 0 0 30px;
+  padding: 20px 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .partners__title {
+    margin-bottom: 20px;
+  }
+}

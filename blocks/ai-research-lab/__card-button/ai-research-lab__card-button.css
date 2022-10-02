@@ -1,0 +1,31 @@
+.ai-research-lab__card-button {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #001337;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #001337;
+  background-color: transparent;
+  transition: all .2s linear;
+}
+
+.ai-research-lab__card-button:active {
+  background-color: #FFF;
+  color: #009FAC !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-button {
+    height: 32px;
+    font-size: 10px;
+    line-height: 1.4;
+    border-radius: 6px;
+  }
+}
+
+

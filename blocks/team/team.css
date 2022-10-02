@@ -1,0 +1,8 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(to top, #001337 50%, #e0f0ff 50%, #e0f0ff 50%);
+}

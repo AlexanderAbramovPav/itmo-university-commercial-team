@@ -1,0 +1,9 @@
+.publications__link-to-article {
+  text-decoration: none;
+  display: flex;
+  -webkit-appearance: none;
+}
+
+.publications__link-to-article:hover .tooltip-details__arrow {
+  transform: translateX(5px);
+}

@@ -1,0 +1,39 @@
+.about__projects-button {
+  padding: 0;
+  width: 350px;
+  height: 60px;
+  margin-top: 50px;
+  border: none;
+  font: inherit;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about__projects-button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media all and (max-width:768px) {
+  .about__projects-button {
+    line-height: calc(2.45vw + 11.14px);
+    font-size: calc(0.89vw + 11.14px);
+    width: calc(9.375vw + 258px);
+    height: calc(3.57vw + 32.57px);
+  }
+}
+
+@media all and (max-width:400px) {
+  .about__projects-button {
+    width: 288px;
+    height: 44px;
+  }
+}

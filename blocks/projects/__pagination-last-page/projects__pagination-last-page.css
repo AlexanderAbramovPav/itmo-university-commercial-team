@@ -1,0 +1,11 @@
+.projects__pagination-last-page {
+  padding-left: 16px;
+  padding-right: 48.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__pagination-last-page {
+    padding-left: 10px;
+    padding-right: 33px;
+  }
+}

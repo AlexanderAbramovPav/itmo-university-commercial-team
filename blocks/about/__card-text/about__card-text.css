@@ -1,0 +1,16 @@
+.about__card-text {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000D26;
+}
+
+@media all and (max-width:390px) {
+  .about__card-text{
+    line-height: 16px;
+    font-size: 12px;
+  }
+}

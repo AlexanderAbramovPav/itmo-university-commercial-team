@@ -1,0 +1,68 @@
+/* Ширина блока logo__container на разных разрешениях согласно староиу коду */
+
+.partners__logo-container {
+  max-width: calc(1110px + 20px);
+  width: calc(100% + 20px);
+  padding: 0;
+  margin: 0 auto -50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+@media screen and (max-width: 1399px) {
+  .partners__logo-container::after {
+    content: "";
+    flex: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__logo-container {
+    width: calc(100% + 40px);
+    max-width: calc(690px + 40px);
+    margin: 0 auto -30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__logo-container {
+    width: calc(100% + 30px);
+    max-width: calc(288px + 30px);
+    margin: 0 auto -20px;
+  }
+}
+
+
+/* Старый код */
+
+/* .partners__logo-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(112px, 1fr));
+  row-gap: 50px;
+  list-style-type: none;
+  padding: 0;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__logo-container {
+    max-width: 690px;
+    grid-template-columns: repeat(4, minmax(74px, 1fr));
+    column-gap: 80px;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__logo-container {
+    max-width: 288px;
+    grid-template-columns: repeat(3, minmax(46px, max-content));
+    column-gap: 44px;
+    row-gap: 20px;
+  }
+} */

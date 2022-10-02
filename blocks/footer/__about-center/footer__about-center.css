@@ -1,0 +1,11 @@
+.footer__about-center {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 320px) {
+  .footer__about-center {
+    width: 140px;
+  }
+}

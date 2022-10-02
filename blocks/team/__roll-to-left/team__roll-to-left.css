@@ -1,0 +1,28 @@
+.team__roll-to-left {
+  top: 400px;
+  left: calc(50vw - 550px - 16px - 75px);
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url('../../../images/arrow_left.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  position: absolute;
+}
+
+.team__roll-to-left:hover {
+  cursor: pointer;
+  background-image: url('../../../images/arrow_left_hover.svg');
+}
+
+@media all and (max-width:1110px) {
+  .team__roll-to-left {
+    display: none;
+  }
+}

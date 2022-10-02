@@ -1,0 +1,11 @@
+.ai-research-lab__card-circle_icon_micro {
+  background: center no-repeat url(../../../../images/lab/micro.svg);
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__card-circle_icon_micro {
+    background: center no-repeat url(../../../../images/lab/microTablet.svg);
+    background-color: #FFF;
+  }
+}

@@ -1,0 +1,19 @@
+.education__list {
+  padding-left: 10px;
+  margin-bottom: 38px;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__list {
+    margin-bottom: 22.5px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__list {
+    margin-bottom: 16px;
+  }
+}

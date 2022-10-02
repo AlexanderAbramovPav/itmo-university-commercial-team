@@ -1,0 +1,23 @@
+.projects__item-about {
+  margin: 0;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 810px) {
+  .projects__item-about {
+    padding: 12px 16px 8px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects__item-about {
+    padding: 8px 10px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,24 @@
+.about__AI-window {
+  margin: auto;
+  width: calc(100vw - 2 * 39px);
+  max-width: 1110px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media all and (max-width:768px) {
+  .about__AI-window {
+    width: 100%;
+    margin-left: 39px;
+    margin-right: 39px;
+    justify-content: flex-start;
+  }
+}
+
+@media all and (max-width:400px) {
+  .about__AI-window{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 288px;
+  }
+}

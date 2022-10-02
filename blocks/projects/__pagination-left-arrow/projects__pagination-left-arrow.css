@@ -1,0 +1,15 @@
+.projects__pagination-left-arrow {
+  height: 32px;
+  width: 32px;
+  background-image: url(../../../images/projects/arrow-left.svg);
+  background-position: center;
+  background-color: transparent;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__pagination-left-arrow {
+    height: 24px;
+    width: 24px;
+  }
+}

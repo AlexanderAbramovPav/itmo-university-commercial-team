@@ -1,0 +1,22 @@
+.popup-ai-research__list {
+  margin: 0;
+  padding-left: 25px;
+  font-family: 'OpenSans', serif;
+  font-size: 18px;
+  line-height: 1.39;
+}
+
+@media screen and (max-width: 1200px) {
+  .popup-ai-research__list {
+    font-size: 14px;
+    line-height: 1.36;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-ai-research__list {
+    font-size: 12px;
+    line-height: 1.3;
+
+  }
+}

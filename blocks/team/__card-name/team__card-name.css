@@ -1,0 +1,26 @@
+.team__card-name {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000D26;
+}
+
+@media all and (max-width: 768px) {
+  .team__card-name {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .team__card-name {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05px;
+  }
+}

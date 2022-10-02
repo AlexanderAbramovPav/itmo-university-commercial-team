@@ -1,0 +1,5 @@
+@media all and (max-width: 1000px) {
+  .partners__logo-item_mobile {
+    display: none;
+  }
+}

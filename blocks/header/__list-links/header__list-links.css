@@ -1,0 +1,10 @@
+.header__list-links {
+  min-height: 44px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  display: flex;
+  background-color: #000D26;;
+  box-sizing: border-box;
+}

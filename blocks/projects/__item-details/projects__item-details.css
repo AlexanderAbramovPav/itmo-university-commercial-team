@@ -1,0 +1,25 @@
+.projects__item-details {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__item-details {
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__item-details {
+    padding-bottom: 12px;
+    padding-left: 10px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.06px;
+  }
+}

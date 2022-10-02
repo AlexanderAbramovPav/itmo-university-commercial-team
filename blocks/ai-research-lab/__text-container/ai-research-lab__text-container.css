@@ -1,0 +1,18 @@
+.ai-research-lab__text-container {
+  max-width: 540px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ai-research-lab__text-container {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research-lab__text-container {
+    order: 2;
+    max-width: 288px;
+    margin-right: 0;
+  }
+}

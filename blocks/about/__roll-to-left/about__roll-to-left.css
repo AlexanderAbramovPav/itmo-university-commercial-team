@@ -1,0 +1,28 @@
+.about__roll-to-left {
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  top: calc(60px + 68px + 90px + 45.5px + 30px + 20px + 20px + 115px);
+  left: -81px;
+  position: absolute;
+  border: none;
+  font: inherit;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url('../../../images/arrow_left.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+}
+
+.about__roll-to-left:hover {
+  cursor: pointer;
+  background-image: url('../../../images/arrow_left_hover.svg');
+}
+
+@media all and (max-width:1122px) {
+  .about__roll-to-left {
+    display: none;
+  }
+}

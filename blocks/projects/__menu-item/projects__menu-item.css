@@ -1,0 +1,18 @@
+.projects__menu-item {
+  width: 277px;
+  min-height: 47.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid transparent;
+}
+
+@media screen and (max-width: 425px) {
+  .projects__menu-item {
+    justify-content: space-between;
+  }
+
+  .projects__menu-item:nth-child(n+2) {
+    display: none;
+  }
+}

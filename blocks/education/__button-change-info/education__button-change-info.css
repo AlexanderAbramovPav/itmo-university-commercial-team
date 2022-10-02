@@ -1,0 +1,26 @@
+.education__button-change-info {
+  margin: 0;
+  width: 50%;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .education__button-change-info {
+    font-size: 14px;
+    line-height: 1.36;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__button-change-info {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}

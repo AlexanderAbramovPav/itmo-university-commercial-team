@@ -1,0 +1,7 @@
+.tooltip-social_active {
+
+
+  opacity: 100%;
+  visibility: visible;
+  transition: opacity .200s ease;
+}

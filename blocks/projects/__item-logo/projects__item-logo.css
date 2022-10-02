@@ -1,0 +1,23 @@
+.projects__item-logo {
+  max-width: 100px;
+  max-height: 48px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__item-logo {
+    padding-left: 16px;
+    max-width: 172px;
+    max-height: 43px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__item-logo {
+    padding-left: 10px;
+    padding-top: 12px;
+    max-width: 100px;
+    max-height: 26px;
+  }
+}

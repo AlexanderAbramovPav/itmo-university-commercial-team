@@ -1,0 +1,12 @@
+.education__title {
+  margin: -100px 0 30px;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .education__title {
+    margin-bottom: 20px;
+  }
+}

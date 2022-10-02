@@ -1,0 +1,25 @@
+.team__card-post {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #009FAC;
+}
+
+@media all and (max-width:768px) {
+  .team__card-post {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media all and (max-width:500px) {
+  .team__card-post {
+    display: none;
+  }
+}
